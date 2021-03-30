@@ -1,17 +1,33 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-title> About Me </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">About Me</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <img src="../assets/ukp.jpeg" />
+    <ion-card-header>
+      <ion-card-subtitle>Name:</ion-card-subtitle>
+      <ion-card-title>Gede Surya Susila</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-card-subtitle>Other info:</ion-card-subtitle>
+      <ion-item-divider color="dark" class="ion-no-padding">
+        <ion-label> 26416141 </ion-label>
+      </ion-item-divider>
+      <ion-item-divider color="dark" class="ion-no-padding">
+        <ion-label> m26416141@john.petra.ac.id </ion-label>
+      </ion-item-divider>
+      <ion-item-divider color="dark" class="ion-no-padding">
+        <ion-label> 087860693172 </ion-label>
+      </ion-item-divider>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
